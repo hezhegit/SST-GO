@@ -1,5 +1,5 @@
 <h1 align="center">
-SGAFGO: Fusion of Multi-Scale Sequence and Multi-Track Graph Networks for Protein Function Prediction
+SST-GO: A Robust Multi-View Framework for Protein Function Prediction via Decoupled Sequence-Structure Fusion
 </h1>
 
 <p align="center">
@@ -9,14 +9,14 @@ SGAFGO: Fusion of Multi-Scale Sequence and Multi-Track Graph Networks for Protei
 <img src="https://img.shields.io/badge/Release-0.1-blue" />
 </p>
 <p align="center">
-This repository contains scripts used to build and train the SGAFGO model, together with scripts for evaluating model performance.
+This repository contains scripts used to build and train the SST-GO model, together with scripts for evaluating model performance.
 </p>
 
 ---
 
 ## Datasets
 
-This repository uses benchmark datasets for training and evaluating SGAFGO.
+This repository uses benchmark datasets for training and evaluating SST-GO.
 
 Dataset snapshots and train/validation/test splits follow the protocols adopted in previous works.
 
@@ -38,8 +38,8 @@ All dataset files should be placed under the `.data/` directory.
 ### Create conda environment
 
 ```bash
-conda create -n sgafgo python=3.8 -y
-conda activate sgafgo
+conda create -n sstgo python=3.8 -y
+conda activate sstgo
 ```
 
 
